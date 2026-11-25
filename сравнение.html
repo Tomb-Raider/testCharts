@@ -166,6 +166,10 @@ document.addEventListener('keydown', onKey);
 $('mode').onclick = (e) => { const m = e.target.dataset.mode; if (m) { mode = m; store.set('mode', m); renderButtons(); } };
 $('ver').onclick = (e) => { const v = e.target.dataset.ver; if (v) { ver = v; renderButtons(); } };
 $('reload').onclick = () => { for (const f of [$('before'), $('after')]) f.contentWindow.location.reload(); };
+window.addEventListener('hashchange', () => {
+  const p = PAGES.find((x) => x.id === location.hash.slice(1));
+  if (p && p !== page) { page = p; store.set('page', p.id); load(); }
+});
 load();
 </script>
 </body>
