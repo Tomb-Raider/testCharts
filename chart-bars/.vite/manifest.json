@@ -1,274 +1,274 @@
 {
-  "_ActivePoints-D9Hjnykt.js": {
-    "file": "assets/ActivePoints-D9Hjnykt.js",
+  "_ActivePoints-BQmQ18ku.js": {
+    "file": "assets/ActivePoints-BQmQ18ku.js",
     "name": "ActivePoints",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_Dot-I--dpScn.js",
-      "_CategoricalChart-CtdegLOd.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_Dot-CrIwluvu.js",
+      "_CategoricalChart-CLET5gRb.js"
     ]
   },
-  "_ActiveShapeUtils-DV7MhwqU.js": {
-    "file": "assets/ActiveShapeUtils-DV7MhwqU.js",
+  "_ActiveShapeUtils-CY4E4kuP.js": {
+    "file": "assets/ActiveShapeUtils-CY4E4kuP.js",
     "name": "ActiveShapeUtils",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js"
     ]
   },
-  "_ApiReference-gxhENZFH.js": {
-    "file": "assets/ApiReference-gxhENZFH.js",
+  "_ApiReference-BF3a31BM.js": {
+    "file": "assets/ApiReference-BF3a31BM.js",
     "name": "ApiReference",
     "imports": [
-      "_catalog-CZgY0CpG.js"
+      "_catalog-Bmoh0Xwv.js"
     ]
   },
-  "_AreaChart-YbkeZvMS.js": {
-    "file": "assets/AreaChart-YbkeZvMS.js",
+  "_AreaChart-D-s66wsV.js": {
+    "file": "assets/AreaChart-D-s66wsV.js",
     "name": "AreaChart",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_ActivePoints-D9Hjnykt.js",
-      "_CategoricalChart-CtdegLOd.js",
-      "_SetGraphicalItem-zaXtTyED.js",
-      "_getRadiusAndStrokeWidthFromDot-I11XF1fq.js",
-      "_ActiveShapeUtils-DV7MhwqU.js",
-      "_useEffectiveDataKey-abgwVHli.js",
-      "_CartesianChart-BGupe6qq.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_ActivePoints-BQmQ18ku.js",
+      "_CategoricalChart-CLET5gRb.js",
+      "_SetGraphicalItem-BXYxVx-J.js",
+      "_getRadiusAndStrokeWidthFromDot-B_ZTHjJj.js",
+      "_ActiveShapeUtils-CY4E4kuP.js",
+      "_useEffectiveDataKey-CEhe1s0b.js",
+      "_CartesianChart-BqXLg2c2.js"
     ]
   },
-  "_Bar-BrWnT2CT.js": {
-    "file": "assets/Bar-BrWnT2CT.js",
+  "_Bar-BnSyYA8R.js": {
+    "file": "assets/Bar-BnSyYA8R.js",
     "name": "Bar",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_ActiveShapeUtils-DV7MhwqU.js",
-      "_tooltipContext-DhnwE3X4.js",
-      "_ErrorBarContext-BuahXscC.js",
-      "_CategoricalChart-CtdegLOd.js",
-      "_SetGraphicalItem-zaXtTyED.js",
-      "_getZIndexFromUnknown-DYTLg1BK.js",
-      "_useEffectiveDataKey-abgwVHli.js",
-      "_omit-D3zANC4L.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_ActiveShapeUtils-CY4E4kuP.js",
+      "_tooltipContext-DPFfYpd1.js",
+      "_ErrorBarContext-B9moCAmn.js",
+      "_CategoricalChart-CLET5gRb.js",
+      "_SetGraphicalItem-BXYxVx-J.js",
+      "_getZIndexFromUnknown-DQJn8h9F.js",
+      "_useEffectiveDataKey-CEhe1s0b.js",
+      "_omit-vhC0oTR4.js"
     ]
   },
-  "_BarChart-CFkA0W95.js": {
-    "file": "assets/BarChart-CFkA0W95.js",
+  "_BarChart-BLd1MzYf.js": {
+    "file": "assets/BarChart-BLd1MzYf.js",
     "name": "BarChart",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_YAxis-CG-qoB2V.js",
-      "_CartesianChart-BGupe6qq.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_YAxis-C8J65pdk.js",
+      "_CartesianChart-BqXLg2c2.js"
     ]
   },
-  "_CartesianChart-BGupe6qq.js": {
-    "file": "assets/CartesianChart-BGupe6qq.js",
+  "_CartesianChart-BqXLg2c2.js": {
+    "file": "assets/CartesianChart-BqXLg2c2.js",
     "name": "CartesianChart",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_CategoricalChart-CtdegLOd.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_CategoricalChart-CLET5gRb.js"
     ]
   },
-  "_CategoricalChart-CtdegLOd.js": {
-    "file": "assets/CategoricalChart-CtdegLOd.js",
+  "_CategoricalChart-CLET5gRb.js": {
+    "file": "assets/CategoricalChart-CLET5gRb.js",
     "name": "CategoricalChart",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js"
     ]
   },
-  "_ComposedChart-DLgQ6PYu.js": {
-    "file": "assets/ComposedChart-DLgQ6PYu.js",
+  "_ComposedChart-CDOT1sxE.js": {
+    "file": "assets/ComposedChart-CDOT1sxE.js",
     "name": "ComposedChart",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_CartesianChart-BGupe6qq.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_CartesianChart-BqXLg2c2.js"
     ]
   },
-  "_Dot-I--dpScn.js": {
-    "file": "assets/Dot-I--dpScn.js",
+  "_Dot-CrIwluvu.js": {
+    "file": "assets/Dot-CrIwluvu.js",
     "name": "Dot",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js"
     ]
   },
-  "_ErrorBarContext-BuahXscC.js": {
-    "file": "assets/ErrorBarContext-BuahXscC.js",
+  "_ErrorBarContext-B9moCAmn.js": {
+    "file": "assets/ErrorBarContext-B9moCAmn.js",
     "name": "ErrorBarContext",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js"
     ]
   },
-  "_FunnelChart-BZ_PTBip.js": {
-    "file": "assets/FunnelChart-BZ_PTBip.js",
+  "_FunnelChart-CiifpAE-.js": {
+    "file": "assets/FunnelChart-CiifpAE-.js",
     "name": "FunnelChart",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_ActiveShapeUtils-DV7MhwqU.js",
-      "_tooltipContext-DhnwE3X4.js",
-      "_CategoricalChart-CtdegLOd.js",
-      "_omit-D3zANC4L.js",
-      "_CartesianChart-BGupe6qq.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_ActiveShapeUtils-CY4E4kuP.js",
+      "_tooltipContext-DPFfYpd1.js",
+      "_CategoricalChart-CLET5gRb.js",
+      "_omit-vhC0oTR4.js",
+      "_CartesianChart-BqXLg2c2.js"
     ]
   },
-  "_Line-m7Mi_0Qt.js": {
-    "file": "assets/Line-m7Mi_0Qt.js",
+  "_Line-dnndpLf0.js": {
+    "file": "assets/Line-dnndpLf0.js",
     "name": "Line",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_ActivePoints-D9Hjnykt.js",
-      "_CategoricalChart-CtdegLOd.js",
-      "_ErrorBarContext-BuahXscC.js",
-      "_SetGraphicalItem-zaXtTyED.js",
-      "_getRadiusAndStrokeWidthFromDot-I11XF1fq.js",
-      "_ActiveShapeUtils-DV7MhwqU.js",
-      "_useEffectiveDataKey-abgwVHli.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_ActivePoints-BQmQ18ku.js",
+      "_CategoricalChart-CLET5gRb.js",
+      "_ErrorBarContext-B9moCAmn.js",
+      "_SetGraphicalItem-BXYxVx-J.js",
+      "_getRadiusAndStrokeWidthFromDot-B_ZTHjJj.js",
+      "_ActiveShapeUtils-CY4E4kuP.js",
+      "_useEffectiveDataKey-CEhe1s0b.js"
     ]
   },
-  "_LineChart-BBO1utra.js": {
-    "file": "assets/LineChart-BBO1utra.js",
+  "_LineChart-FH-1Hbkb.js": {
+    "file": "assets/LineChart-FH-1Hbkb.js",
     "name": "LineChart",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_CartesianChart-BGupe6qq.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_CartesianChart-BqXLg2c2.js"
     ]
   },
-  "_PieChart-C9hiTjRv.js": {
-    "file": "assets/PieChart-C9hiTjRv.js",
+  "_PieChart-322tvXA_.js": {
+    "file": "assets/PieChart-322tvXA_.js",
     "name": "PieChart",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_tooltipContext-DhnwE3X4.js",
-      "_CategoricalChart-CtdegLOd.js",
-      "_ActiveShapeUtils-DV7MhwqU.js",
-      "_SetGraphicalItem-zaXtTyED.js",
-      "_PolarChart-B7CttOzU.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_tooltipContext-DPFfYpd1.js",
+      "_CategoricalChart-CLET5gRb.js",
+      "_ActiveShapeUtils-CY4E4kuP.js",
+      "_SetGraphicalItem-BXYxVx-J.js",
+      "_PolarChart-Bj2FvEKJ.js"
     ]
   },
-  "_PolarAngleAxis-BtuMRK2s.js": {
-    "file": "assets/PolarAngleAxis-BtuMRK2s.js",
+  "_PolarAngleAxis-B7BOG3uo.js": {
+    "file": "assets/PolarAngleAxis-B7BOG3uo.js",
     "name": "PolarAngleAxis",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_Dot-I--dpScn.js",
-      "_Polygon-C3fo_S5l.js",
-      "_PolarChart-B7CttOzU.js",
-      "_SetGraphicalItem-zaXtTyED.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_Dot-CrIwluvu.js",
+      "_Polygon-BBCc96ia.js",
+      "_PolarChart-Bj2FvEKJ.js",
+      "_SetGraphicalItem-BXYxVx-J.js"
     ]
   },
-  "_PolarChart-B7CttOzU.js": {
-    "file": "assets/PolarChart-B7CttOzU.js",
+  "_PolarChart-Bj2FvEKJ.js": {
+    "file": "assets/PolarChart-Bj2FvEKJ.js",
     "name": "PolarChart",
     "imports": [
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_catalog-CZgY0CpG.js",
-      "_CategoricalChart-CtdegLOd.js"
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_catalog-Bmoh0Xwv.js",
+      "_CategoricalChart-CLET5gRb.js"
     ]
   },
-  "_Polygon-C3fo_S5l.js": {
-    "file": "assets/Polygon-C3fo_S5l.js",
+  "_Polygon-BBCc96ia.js": {
+    "file": "assets/Polygon-BBCc96ia.js",
     "name": "Polygon",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js"
     ]
   },
-  "_RadarChart-CTmiVzaw.js": {
-    "file": "assets/RadarChart-CTmiVzaw.js",
+  "_RadarChart-BhD7Mfdj.js": {
+    "file": "assets/RadarChart-BhD7Mfdj.js",
     "name": "RadarChart",
     "imports": [
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_catalog-CZgY0CpG.js",
-      "_PolarAngleAxis-BtuMRK2s.js",
-      "_SetGraphicalItem-zaXtTyED.js",
-      "_Polygon-C3fo_S5l.js",
-      "_ActivePoints-D9Hjnykt.js",
-      "_CategoricalChart-CtdegLOd.js",
-      "_useEffectiveDataKey-abgwVHli.js",
-      "_PolarChart-B7CttOzU.js"
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_catalog-Bmoh0Xwv.js",
+      "_PolarAngleAxis-B7BOG3uo.js",
+      "_SetGraphicalItem-BXYxVx-J.js",
+      "_Polygon-BBCc96ia.js",
+      "_ActivePoints-BQmQ18ku.js",
+      "_CategoricalChart-CLET5gRb.js",
+      "_useEffectiveDataKey-CEhe1s0b.js",
+      "_PolarChart-Bj2FvEKJ.js"
     ]
   },
-  "_RadialBarChart-C8dNUTSh.js": {
-    "file": "assets/RadialBarChart-C8dNUTSh.js",
+  "_RadialBarChart-D8_seLC1.js": {
+    "file": "assets/RadialBarChart-D8_seLC1.js",
     "name": "RadialBarChart",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_ActiveShapeUtils-DV7MhwqU.js",
-      "_CategoricalChart-CtdegLOd.js",
-      "_tooltipContext-DhnwE3X4.js",
-      "_SetGraphicalItem-zaXtTyED.js",
-      "_getZIndexFromUnknown-DYTLg1BK.js",
-      "_useEffectiveDataKey-abgwVHli.js",
-      "_omit-D3zANC4L.js",
-      "_PolarAngleAxis-BtuMRK2s.js",
-      "_PolarChart-B7CttOzU.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_ActiveShapeUtils-CY4E4kuP.js",
+      "_CategoricalChart-CLET5gRb.js",
+      "_tooltipContext-DPFfYpd1.js",
+      "_SetGraphicalItem-BXYxVx-J.js",
+      "_getZIndexFromUnknown-DQJn8h9F.js",
+      "_useEffectiveDataKey-CEhe1s0b.js",
+      "_omit-vhC0oTR4.js",
+      "_PolarAngleAxis-B7BOG3uo.js",
+      "_PolarChart-Bj2FvEKJ.js"
     ]
   },
-  "_RechartsWrapper-qjTuUeH_.js": {
-    "file": "assets/RechartsWrapper-qjTuUeH_.js",
+  "_RechartsWrapper-BOJT8Rdo.js": {
+    "file": "assets/RechartsWrapper-BOJT8Rdo.js",
     "name": "RechartsWrapper",
     "imports": [
-      "_catalog-CZgY0CpG.js"
+      "_catalog-Bmoh0Xwv.js"
     ]
   },
-  "_ScatterChart-XAvKVkyj.js": {
-    "file": "assets/ScatterChart-XAvKVkyj.js",
+  "_ScatterChart-CkREW9jZ.js": {
+    "file": "assets/ScatterChart-CkREW9jZ.js",
     "name": "ScatterChart",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_CategoricalChart-CtdegLOd.js",
-      "_tooltipContext-DhnwE3X4.js",
-      "_ActiveShapeUtils-DV7MhwqU.js",
-      "_ErrorBarContext-BuahXscC.js",
-      "_SetGraphicalItem-zaXtTyED.js",
-      "_useEffectiveDataKey-abgwVHli.js",
-      "_CartesianChart-BGupe6qq.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_CategoricalChart-CLET5gRb.js",
+      "_tooltipContext-DPFfYpd1.js",
+      "_ActiveShapeUtils-CY4E4kuP.js",
+      "_ErrorBarContext-B9moCAmn.js",
+      "_SetGraphicalItem-BXYxVx-J.js",
+      "_useEffectiveDataKey-CEhe1s0b.js",
+      "_CartesianChart-BqXLg2c2.js"
     ]
   },
-  "_SetGraphicalItem-zaXtTyED.js": {
-    "file": "assets/SetGraphicalItem-zaXtTyED.js",
+  "_SetGraphicalItem-BXYxVx-J.js": {
+    "file": "assets/SetGraphicalItem-BXYxVx-J.js",
     "name": "SetGraphicalItem",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js"
     ]
   },
-  "_Treemap-BidgFBdo.js": {
-    "file": "assets/Treemap-BidgFBdo.js",
+  "_Treemap-DPlg5JN2.js": {
+    "file": "assets/Treemap-DPlg5JN2.js",
     "name": "Treemap",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_Polygon-C3fo_S5l.js",
-      "_omit-D3zANC4L.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_Polygon-BBCc96ia.js",
+      "_omit-vhC0oTR4.js"
     ]
   },
-  "_YAxis-CG-qoB2V.js": {
-    "file": "assets/YAxis-CG-qoB2V.js",
+  "_YAxis-C8J65pdk.js": {
+    "file": "assets/YAxis-C8J65pdk.js",
     "name": "YAxis",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_SetGraphicalItem-zaXtTyED.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_SetGraphicalItem-BXYxVx-J.js"
     ]
   },
-  "_catalog-CZgY0CpG.js": {
-    "file": "assets/catalog-CZgY0CpG.js",
+  "_catalog-Bmoh0Xwv.js": {
+    "file": "assets/catalog-Bmoh0Xwv.js",
     "name": "catalog",
     "dynamicImports": [
       "src/BarWithTable.tsx",
@@ -284,84 +284,84 @@
       "lib/funnel.js"
     ]
   },
-  "_getRadiusAndStrokeWidthFromDot-I11XF1fq.js": {
-    "file": "assets/getRadiusAndStrokeWidthFromDot-I11XF1fq.js",
+  "_getRadiusAndStrokeWidthFromDot-B_ZTHjJj.js": {
+    "file": "assets/getRadiusAndStrokeWidthFromDot-B_ZTHjJj.js",
     "name": "getRadiusAndStrokeWidthFromDot",
     "imports": [
-      "_RechartsWrapper-qjTuUeH_.js"
+      "_RechartsWrapper-BOJT8Rdo.js"
     ]
   },
-  "_getZIndexFromUnknown-DYTLg1BK.js": {
-    "file": "assets/getZIndexFromUnknown-DYTLg1BK.js",
+  "_getZIndexFromUnknown-DQJn8h9F.js": {
+    "file": "assets/getZIndexFromUnknown-DQJn8h9F.js",
     "name": "getZIndexFromUnknown",
     "imports": [
-      "_RechartsWrapper-qjTuUeH_.js"
+      "_RechartsWrapper-BOJT8Rdo.js"
     ]
   },
-  "_omit-D3zANC4L.js": {
-    "file": "assets/omit-D3zANC4L.js",
+  "_omit-vhC0oTR4.js": {
+    "file": "assets/omit-vhC0oTR4.js",
     "name": "omit",
     "imports": [
-      "_RechartsWrapper-qjTuUeH_.js"
+      "_RechartsWrapper-BOJT8Rdo.js"
     ]
   },
-  "_shared-BG2BfEm1.js": {
-    "file": "assets/shared-BG2BfEm1.js",
+  "_shared-BOp6PQnd.js": {
+    "file": "assets/shared-BOp6PQnd.js",
     "name": "shared",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js"
     ]
   },
-  "_tooltipContext-DhnwE3X4.js": {
-    "file": "assets/tooltipContext-DhnwE3X4.js",
+  "_tooltipContext-DPFfYpd1.js": {
+    "file": "assets/tooltipContext-DPFfYpd1.js",
     "name": "tooltipContext",
     "imports": [
-      "_RechartsWrapper-qjTuUeH_.js"
+      "_RechartsWrapper-BOJT8Rdo.js"
     ]
   },
-  "_useEffectiveDataKey-abgwVHli.js": {
-    "file": "assets/useEffectiveDataKey-abgwVHli.js",
+  "_useEffectiveDataKey-CEhe1s0b.js": {
+    "file": "assets/useEffectiveDataKey-CEhe1s0b.js",
     "name": "useEffectiveDataKey",
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_RechartsWrapper-qjTuUeH_.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_RechartsWrapper-BOJT8Rdo.js"
     ]
   },
   "bars.html": {
-    "file": "assets/bars-DheDHGDu.js",
+    "file": "assets/bars-C1oiwO0D.js",
     "name": "bars",
     "src": "bars.html",
     "isEntry": true,
     "imports": [
-      "_catalog-CZgY0CpG.js",
+      "_catalog-Bmoh0Xwv.js",
       "lib/bar.js",
-      "_shared-BG2BfEm1.js",
-      "_Bar-BrWnT2CT.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_ActiveShapeUtils-DV7MhwqU.js",
-      "_tooltipContext-DhnwE3X4.js",
-      "_ErrorBarContext-BuahXscC.js",
-      "_CategoricalChart-CtdegLOd.js",
-      "_SetGraphicalItem-zaXtTyED.js",
-      "_getZIndexFromUnknown-DYTLg1BK.js",
-      "_useEffectiveDataKey-abgwVHli.js",
-      "_omit-D3zANC4L.js",
-      "_BarChart-CFkA0W95.js",
-      "_YAxis-CG-qoB2V.js",
-      "_CartesianChart-BGupe6qq.js"
+      "_shared-BOp6PQnd.js",
+      "_Bar-BnSyYA8R.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_ActiveShapeUtils-CY4E4kuP.js",
+      "_tooltipContext-DPFfYpd1.js",
+      "_ErrorBarContext-B9moCAmn.js",
+      "_CategoricalChart-CLET5gRb.js",
+      "_SetGraphicalItem-BXYxVx-J.js",
+      "_getZIndexFromUnknown-DQJn8h9F.js",
+      "_useEffectiveDataKey-CEhe1s0b.js",
+      "_omit-vhC0oTR4.js",
+      "_BarChart-BLd1MzYf.js",
+      "_YAxis-C8J65pdk.js",
+      "_CartesianChart-BqXLg2c2.js"
     ],
     "css": [
       "assets/bars-DZwubyGY.css"
     ]
   },
   "index.html": {
-    "file": "assets/index-DU9kqUwQ.js",
+    "file": "assets/index-BJQXrKMK.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
     "imports": [
-      "_catalog-CZgY0CpG.js"
+      "_catalog-Bmoh0Xwv.js"
     ],
     "dynamicImports": [
       "src/NativeEditor.tsx",
@@ -373,290 +373,290 @@
     ]
   },
   "lib/area.js": {
-    "file": "assets/area-B0SaZmrk.js",
+    "file": "assets/area-xZ_Pj57c.js",
     "name": "area",
     "src": "lib/area.js",
     "isDynamicEntry": true,
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_shared-BG2BfEm1.js",
-      "_AreaChart-YbkeZvMS.js",
-      "_YAxis-CG-qoB2V.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_ActivePoints-D9Hjnykt.js",
-      "_Dot-I--dpScn.js",
-      "_CategoricalChart-CtdegLOd.js",
-      "_SetGraphicalItem-zaXtTyED.js",
-      "_getRadiusAndStrokeWidthFromDot-I11XF1fq.js",
-      "_ActiveShapeUtils-DV7MhwqU.js",
-      "_useEffectiveDataKey-abgwVHli.js",
-      "_CartesianChart-BGupe6qq.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_shared-BOp6PQnd.js",
+      "_AreaChart-D-s66wsV.js",
+      "_YAxis-C8J65pdk.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_ActivePoints-BQmQ18ku.js",
+      "_Dot-CrIwluvu.js",
+      "_CategoricalChart-CLET5gRb.js",
+      "_SetGraphicalItem-BXYxVx-J.js",
+      "_getRadiusAndStrokeWidthFromDot-B_ZTHjJj.js",
+      "_ActiveShapeUtils-CY4E4kuP.js",
+      "_useEffectiveDataKey-CEhe1s0b.js",
+      "_CartesianChart-BqXLg2c2.js"
     ]
   },
   "lib/bar.js": {
-    "file": "assets/bar-DZzD7ZGT.js",
+    "file": "assets/bar-Be6E6gR-.js",
     "name": "bar",
     "src": "lib/bar.js",
     "isDynamicEntry": true,
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_shared-BG2BfEm1.js",
-      "_Bar-BrWnT2CT.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_BarChart-CFkA0W95.js",
-      "_YAxis-CG-qoB2V.js",
-      "_ActiveShapeUtils-DV7MhwqU.js",
-      "_tooltipContext-DhnwE3X4.js",
-      "_ErrorBarContext-BuahXscC.js",
-      "_CategoricalChart-CtdegLOd.js",
-      "_SetGraphicalItem-zaXtTyED.js",
-      "_getZIndexFromUnknown-DYTLg1BK.js",
-      "_useEffectiveDataKey-abgwVHli.js",
-      "_omit-D3zANC4L.js",
-      "_CartesianChart-BGupe6qq.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_shared-BOp6PQnd.js",
+      "_Bar-BnSyYA8R.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_BarChart-BLd1MzYf.js",
+      "_YAxis-C8J65pdk.js",
+      "_ActiveShapeUtils-CY4E4kuP.js",
+      "_tooltipContext-DPFfYpd1.js",
+      "_ErrorBarContext-B9moCAmn.js",
+      "_CategoricalChart-CLET5gRb.js",
+      "_SetGraphicalItem-BXYxVx-J.js",
+      "_getZIndexFromUnknown-DQJn8h9F.js",
+      "_useEffectiveDataKey-CEhe1s0b.js",
+      "_omit-vhC0oTR4.js",
+      "_CartesianChart-BqXLg2c2.js"
     ]
   },
   "lib/composed.js": {
-    "file": "assets/composed-CTkPfMlB.js",
+    "file": "assets/composed-D09sR_Fk.js",
     "name": "composed",
     "src": "lib/composed.js",
     "isDynamicEntry": true,
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_shared-BG2BfEm1.js",
-      "_ComposedChart-DLgQ6PYu.js",
-      "_YAxis-CG-qoB2V.js",
-      "_Bar-BrWnT2CT.js",
-      "_Line-m7Mi_0Qt.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_CartesianChart-BGupe6qq.js",
-      "_CategoricalChart-CtdegLOd.js",
-      "_SetGraphicalItem-zaXtTyED.js",
-      "_ActiveShapeUtils-DV7MhwqU.js",
-      "_tooltipContext-DhnwE3X4.js",
-      "_ErrorBarContext-BuahXscC.js",
-      "_getZIndexFromUnknown-DYTLg1BK.js",
-      "_useEffectiveDataKey-abgwVHli.js",
-      "_omit-D3zANC4L.js",
-      "_ActivePoints-D9Hjnykt.js",
-      "_Dot-I--dpScn.js",
-      "_getRadiusAndStrokeWidthFromDot-I11XF1fq.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_shared-BOp6PQnd.js",
+      "_ComposedChart-CDOT1sxE.js",
+      "_YAxis-C8J65pdk.js",
+      "_Bar-BnSyYA8R.js",
+      "_Line-dnndpLf0.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_CartesianChart-BqXLg2c2.js",
+      "_CategoricalChart-CLET5gRb.js",
+      "_SetGraphicalItem-BXYxVx-J.js",
+      "_ActiveShapeUtils-CY4E4kuP.js",
+      "_tooltipContext-DPFfYpd1.js",
+      "_ErrorBarContext-B9moCAmn.js",
+      "_getZIndexFromUnknown-DQJn8h9F.js",
+      "_useEffectiveDataKey-CEhe1s0b.js",
+      "_omit-vhC0oTR4.js",
+      "_ActivePoints-BQmQ18ku.js",
+      "_Dot-CrIwluvu.js",
+      "_getRadiusAndStrokeWidthFromDot-B_ZTHjJj.js"
     ]
   },
   "lib/funnel.js": {
-    "file": "assets/funnel-FOysnQcI.js",
+    "file": "assets/funnel-DgLcY3Vi.js",
     "name": "funnel",
     "src": "lib/funnel.js",
     "isDynamicEntry": true,
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_shared-BG2BfEm1.js",
-      "_FunnelChart-BZ_PTBip.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_ActiveShapeUtils-DV7MhwqU.js",
-      "_tooltipContext-DhnwE3X4.js",
-      "_CategoricalChart-CtdegLOd.js",
-      "_omit-D3zANC4L.js",
-      "_CartesianChart-BGupe6qq.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_shared-BOp6PQnd.js",
+      "_FunnelChart-CiifpAE-.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_ActiveShapeUtils-CY4E4kuP.js",
+      "_tooltipContext-DPFfYpd1.js",
+      "_CategoricalChart-CLET5gRb.js",
+      "_omit-vhC0oTR4.js",
+      "_CartesianChart-BqXLg2c2.js"
     ]
   },
   "lib/line.js": {
-    "file": "assets/line-DsCq3-ZC.js",
+    "file": "assets/line-D9YhpseF.js",
     "name": "line",
     "src": "lib/line.js",
     "isDynamicEntry": true,
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_shared-BG2BfEm1.js",
-      "_CategoricalChart-CtdegLOd.js",
-      "_LineChart-BBO1utra.js",
-      "_YAxis-CG-qoB2V.js",
-      "_Line-m7Mi_0Qt.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_CartesianChart-BGupe6qq.js",
-      "_SetGraphicalItem-zaXtTyED.js",
-      "_ActivePoints-D9Hjnykt.js",
-      "_Dot-I--dpScn.js",
-      "_ErrorBarContext-BuahXscC.js",
-      "_getRadiusAndStrokeWidthFromDot-I11XF1fq.js",
-      "_ActiveShapeUtils-DV7MhwqU.js",
-      "_useEffectiveDataKey-abgwVHli.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_shared-BOp6PQnd.js",
+      "_CategoricalChart-CLET5gRb.js",
+      "_LineChart-FH-1Hbkb.js",
+      "_YAxis-C8J65pdk.js",
+      "_Line-dnndpLf0.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_CartesianChart-BqXLg2c2.js",
+      "_SetGraphicalItem-BXYxVx-J.js",
+      "_ActivePoints-BQmQ18ku.js",
+      "_Dot-CrIwluvu.js",
+      "_ErrorBarContext-B9moCAmn.js",
+      "_getRadiusAndStrokeWidthFromDot-B_ZTHjJj.js",
+      "_ActiveShapeUtils-CY4E4kuP.js",
+      "_useEffectiveDataKey-CEhe1s0b.js"
     ]
   },
   "lib/pie.js": {
-    "file": "assets/pie-BBp-UNfp.js",
+    "file": "assets/pie-y5Diy9P4.js",
     "name": "pie",
     "src": "lib/pie.js",
     "isDynamicEntry": true,
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_shared-BG2BfEm1.js",
-      "_PieChart-C9hiTjRv.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_tooltipContext-DhnwE3X4.js",
-      "_CategoricalChart-CtdegLOd.js",
-      "_ActiveShapeUtils-DV7MhwqU.js",
-      "_SetGraphicalItem-zaXtTyED.js",
-      "_PolarChart-B7CttOzU.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_shared-BOp6PQnd.js",
+      "_PieChart-322tvXA_.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_tooltipContext-DPFfYpd1.js",
+      "_CategoricalChart-CLET5gRb.js",
+      "_ActiveShapeUtils-CY4E4kuP.js",
+      "_SetGraphicalItem-BXYxVx-J.js",
+      "_PolarChart-Bj2FvEKJ.js"
     ]
   },
   "lib/radar.js": {
-    "file": "assets/radar-DesKGoQ6.js",
+    "file": "assets/radar-D6G5fcJV.js",
     "name": "radar",
     "src": "lib/radar.js",
     "isDynamicEntry": true,
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_shared-BG2BfEm1.js",
-      "_RadarChart-CTmiVzaw.js",
-      "_PolarAngleAxis-BtuMRK2s.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_SetGraphicalItem-zaXtTyED.js",
-      "_Polygon-C3fo_S5l.js",
-      "_ActivePoints-D9Hjnykt.js",
-      "_Dot-I--dpScn.js",
-      "_CategoricalChart-CtdegLOd.js",
-      "_useEffectiveDataKey-abgwVHli.js",
-      "_PolarChart-B7CttOzU.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_shared-BOp6PQnd.js",
+      "_RadarChart-BhD7Mfdj.js",
+      "_PolarAngleAxis-B7BOG3uo.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_SetGraphicalItem-BXYxVx-J.js",
+      "_Polygon-BBCc96ia.js",
+      "_ActivePoints-BQmQ18ku.js",
+      "_Dot-CrIwluvu.js",
+      "_CategoricalChart-CLET5gRb.js",
+      "_useEffectiveDataKey-CEhe1s0b.js",
+      "_PolarChart-Bj2FvEKJ.js"
     ]
   },
   "lib/radial.js": {
-    "file": "assets/radial-D5vTiJhl.js",
+    "file": "assets/radial-BSCUpF5x.js",
     "name": "radial",
     "src": "lib/radial.js",
     "isDynamicEntry": true,
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_shared-BG2BfEm1.js",
-      "_RadialBarChart-C8dNUTSh.js",
-      "_PolarAngleAxis-BtuMRK2s.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_ActiveShapeUtils-DV7MhwqU.js",
-      "_CategoricalChart-CtdegLOd.js",
-      "_tooltipContext-DhnwE3X4.js",
-      "_SetGraphicalItem-zaXtTyED.js",
-      "_getZIndexFromUnknown-DYTLg1BK.js",
-      "_useEffectiveDataKey-abgwVHli.js",
-      "_omit-D3zANC4L.js",
-      "_PolarChart-B7CttOzU.js",
-      "_Dot-I--dpScn.js",
-      "_Polygon-C3fo_S5l.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_shared-BOp6PQnd.js",
+      "_RadialBarChart-D8_seLC1.js",
+      "_PolarAngleAxis-B7BOG3uo.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_ActiveShapeUtils-CY4E4kuP.js",
+      "_CategoricalChart-CLET5gRb.js",
+      "_tooltipContext-DPFfYpd1.js",
+      "_SetGraphicalItem-BXYxVx-J.js",
+      "_getZIndexFromUnknown-DQJn8h9F.js",
+      "_useEffectiveDataKey-CEhe1s0b.js",
+      "_omit-vhC0oTR4.js",
+      "_PolarChart-Bj2FvEKJ.js",
+      "_Dot-CrIwluvu.js",
+      "_Polygon-BBCc96ia.js"
     ]
   },
   "lib/scatter.js": {
-    "file": "assets/scatter-BnJzDSur.js",
+    "file": "assets/scatter-_KGTALkr.js",
     "name": "scatter",
     "src": "lib/scatter.js",
     "isDynamicEntry": true,
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_shared-BG2BfEm1.js",
-      "_ScatterChart-XAvKVkyj.js",
-      "_YAxis-CG-qoB2V.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_CategoricalChart-CtdegLOd.js",
-      "_tooltipContext-DhnwE3X4.js",
-      "_ActiveShapeUtils-DV7MhwqU.js",
-      "_ErrorBarContext-BuahXscC.js",
-      "_SetGraphicalItem-zaXtTyED.js",
-      "_useEffectiveDataKey-abgwVHli.js",
-      "_CartesianChart-BGupe6qq.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_shared-BOp6PQnd.js",
+      "_ScatterChart-CkREW9jZ.js",
+      "_YAxis-C8J65pdk.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_CategoricalChart-CLET5gRb.js",
+      "_tooltipContext-DPFfYpd1.js",
+      "_ActiveShapeUtils-CY4E4kuP.js",
+      "_ErrorBarContext-B9moCAmn.js",
+      "_SetGraphicalItem-BXYxVx-J.js",
+      "_useEffectiveDataKey-CEhe1s0b.js",
+      "_CartesianChart-BqXLg2c2.js"
     ]
   },
   "lib/treemap.js": {
-    "file": "assets/treemap-p-yNm68w.js",
+    "file": "assets/treemap-Dk-is34s.js",
     "name": "treemap",
     "src": "lib/treemap.js",
     "isDynamicEntry": true,
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_shared-BG2BfEm1.js",
-      "_Treemap-BidgFBdo.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_Polygon-C3fo_S5l.js",
-      "_omit-D3zANC4L.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_shared-BOp6PQnd.js",
+      "_Treemap-DPlg5JN2.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_Polygon-BBCc96ia.js",
+      "_omit-vhC0oTR4.js"
     ]
   },
   "src/BarWithTable.tsx": {
-    "file": "assets/BarWithTable-Bue0Aqme.js",
+    "file": "assets/BarWithTable-DJNsRo9N.js",
     "name": "BarWithTable",
     "src": "src/BarWithTable.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_catalog-CZgY0CpG.js",
+      "_catalog-Bmoh0Xwv.js",
       "lib/bar.js",
-      "_shared-BG2BfEm1.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_Bar-BrWnT2CT.js",
-      "_ActiveShapeUtils-DV7MhwqU.js",
-      "_tooltipContext-DhnwE3X4.js",
-      "_ErrorBarContext-BuahXscC.js",
-      "_CategoricalChart-CtdegLOd.js",
-      "_SetGraphicalItem-zaXtTyED.js",
-      "_getZIndexFromUnknown-DYTLg1BK.js",
-      "_useEffectiveDataKey-abgwVHli.js",
-      "_omit-D3zANC4L.js",
-      "_BarChart-CFkA0W95.js",
-      "_YAxis-CG-qoB2V.js",
-      "_CartesianChart-BGupe6qq.js"
+      "_shared-BOp6PQnd.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_Bar-BnSyYA8R.js",
+      "_ActiveShapeUtils-CY4E4kuP.js",
+      "_tooltipContext-DPFfYpd1.js",
+      "_ErrorBarContext-B9moCAmn.js",
+      "_CategoricalChart-CLET5gRb.js",
+      "_SetGraphicalItem-BXYxVx-J.js",
+      "_getZIndexFromUnknown-DQJn8h9F.js",
+      "_useEffectiveDataKey-CEhe1s0b.js",
+      "_omit-vhC0oTR4.js",
+      "_BarChart-BLd1MzYf.js",
+      "_YAxis-C8J65pdk.js",
+      "_CartesianChart-BqXLg2c2.js"
     ]
   },
   "src/Capabilities.tsx": {
-    "file": "assets/Capabilities-B6DJLt13.js",
+    "file": "assets/Capabilities-C1orhR5R.js",
     "name": "Capabilities",
     "src": "src/Capabilities.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_ApiReference-gxhENZFH.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_ApiReference-BF3a31BM.js"
     ]
   },
   "src/NativeEditor.tsx": {
-    "file": "assets/NativeEditor-CjtYN7b2.js",
+    "file": "assets/NativeEditor-xY9Il-en.js",
     "name": "NativeEditor",
     "src": "src/NativeEditor.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_catalog-CZgY0CpG.js",
-      "_ApiReference-gxhENZFH.js",
-      "_RechartsWrapper-qjTuUeH_.js",
-      "_LineChart-BBO1utra.js",
-      "_RadarChart-CTmiVzaw.js",
-      "_PolarAngleAxis-BtuMRK2s.js",
-      "_ErrorBarContext-BuahXscC.js",
-      "_Treemap-BidgFBdo.js",
-      "_CategoricalChart-CtdegLOd.js",
-      "_Dot-I--dpScn.js",
-      "_BarChart-CFkA0W95.js",
-      "_YAxis-CG-qoB2V.js",
-      "_ScatterChart-XAvKVkyj.js",
-      "_FunnelChart-BZ_PTBip.js",
-      "_RadialBarChart-C8dNUTSh.js",
-      "_PieChart-C9hiTjRv.js",
-      "_ComposedChart-DLgQ6PYu.js",
-      "_Bar-BrWnT2CT.js",
-      "_AreaChart-YbkeZvMS.js",
-      "_Line-m7Mi_0Qt.js",
-      "_CartesianChart-BGupe6qq.js",
-      "_SetGraphicalItem-zaXtTyED.js",
-      "_Polygon-C3fo_S5l.js",
-      "_ActivePoints-D9Hjnykt.js",
-      "_useEffectiveDataKey-abgwVHli.js",
-      "_PolarChart-B7CttOzU.js",
-      "_omit-D3zANC4L.js",
-      "_tooltipContext-DhnwE3X4.js",
-      "_ActiveShapeUtils-DV7MhwqU.js",
-      "_getZIndexFromUnknown-DYTLg1BK.js",
-      "_getRadiusAndStrokeWidthFromDot-I11XF1fq.js"
+      "_catalog-Bmoh0Xwv.js",
+      "_ApiReference-BF3a31BM.js",
+      "_RechartsWrapper-BOJT8Rdo.js",
+      "_LineChart-FH-1Hbkb.js",
+      "_RadarChart-BhD7Mfdj.js",
+      "_PolarAngleAxis-B7BOG3uo.js",
+      "_ErrorBarContext-B9moCAmn.js",
+      "_Treemap-DPlg5JN2.js",
+      "_CategoricalChart-CLET5gRb.js",
+      "_Dot-CrIwluvu.js",
+      "_BarChart-BLd1MzYf.js",
+      "_YAxis-C8J65pdk.js",
+      "_ScatterChart-CkREW9jZ.js",
+      "_FunnelChart-CiifpAE-.js",
+      "_RadialBarChart-D8_seLC1.js",
+      "_PieChart-322tvXA_.js",
+      "_ComposedChart-CDOT1sxE.js",
+      "_Bar-BnSyYA8R.js",
+      "_AreaChart-D-s66wsV.js",
+      "_Line-dnndpLf0.js",
+      "_CartesianChart-BqXLg2c2.js",
+      "_SetGraphicalItem-BXYxVx-J.js",
+      "_Polygon-BBCc96ia.js",
+      "_ActivePoints-BQmQ18ku.js",
+      "_useEffectiveDataKey-CEhe1s0b.js",
+      "_PolarChart-Bj2FvEKJ.js",
+      "_omit-vhC0oTR4.js",
+      "_tooltipContext-DPFfYpd1.js",
+      "_ActiveShapeUtils-CY4E4kuP.js",
+      "_getZIndexFromUnknown-DQJn8h9F.js",
+      "_getRadiusAndStrokeWidthFromDot-B_ZTHjJj.js"
     ]
   },
   "src/Showcase.tsx": {
-    "file": "assets/Showcase-B60LsuRC.js",
+    "file": "assets/Showcase-twXu8uIO.js",
     "name": "Showcase",
     "src": "src/Showcase.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_catalog-CZgY0CpG.js"
+      "_catalog-Bmoh0Xwv.js"
     ]
   }
 }
