@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>До и после токенов</title>
+<style>
+:root { --bg: #FFFFFF; --text: #13181B; --muted: #6B767E; --line: #D5DFE6; --accent: #0B7ECB; --chip: #E8EEF2; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #060A0C; --text: #F2F5F8; --muted: #8A959D; --line: #23292D; --accent: #199AF0; --chip: #23292D; }
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; display: flex; flex-direction: column; background: var(--bg); color: var(--text);
+  font: 14px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; }
+header { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; padding: 10px 16px;
+  border-bottom: 1px solid var(--line); }
+header a.home { color: var(--accent); text-decoration: none; }
+.seg { display: inline-flex; flex-wrap: wrap; gap: 2px; padding: 2px; border-radius: 8px; background: var(--chip); }
+.seg button { border: 0; padding: 5px 10px; border-radius: 6px; background: transparent; color: var(--text);
+  font: inherit; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--bg); font-weight: 600; }
+.ver button[aria-pressed="true"] { color: var(--accent); }
+.note { flex: 1 1 100%; color: var(--muted); }
+.note b { color: var(--text); font-weight: 600; }
+.icon { border: 0; background: transparent; color: var(--muted); font: inherit; cursor: pointer; padding: 5px 4px; }
+.stage { position: relative; flex: 1 1 auto; display: flex; min-height: 0; }
+.pane { position: relative; flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; }
+.pane + .pane { border-left: 1px solid var(--line); }
+.pane span { padding: 4px 16px; color: var(--muted); border-bottom: 1px solid var(--line); }
+.pane iframe { flex: 1 1 auto; width: 100%; border: 0; background: var(--bg); }
+/* Переключение: обе страницы на одном месте, видна одна, прокрутка общая */
+.stage.flip .pane { position: absolute; inset: 0; }
+.stage.flip .pane span { display: none; }
+.stage.flip .pane.hidden { visibility: hidden; }
+.stage.flip .pane + .pane { border-left: 0; }
+</style>
+</head>
+<body>
+<header>
+  <a class="home" href="./">Оглавление</a>
+  <div class="seg" id="pages" role="group" aria-label="Страница"></div>
+  <div class="seg" id="mode" role="group" aria-label="Вид">
+    <button data-mode="flip" aria-pressed="true">Переключать</button>
+    <button data-mode="side" aria-pressed="false">Рядом</button>
+  </div>
+  <div class="seg ver" id="ver" role="group" aria-label="Версия">
+    <button data-ver="before" aria-pressed="false">До</button>
+    <button data-ver="after" aria-pressed="true">После</button>
+  </div>
+  <button class="icon" id="reload" title="Обновить обе страницы, если поменяли тему или настройку">Обновить</button>
+  <div class="note" id="note"></div>
+</header>
+<div class="stage flip" id="stage">
+  <div class="pane" id="paneBefore"><span id="capBefore">До</span><iframe id="before" title="До"></iframe></div>
+  <div class="pane" id="paneAfter"><span id="capAfter">После</span><iframe id="after" title="После"></iframe></div>
+</div>
+<script>
+// Страницы для сравнения. «До» сохранено 25.11 в папке до/, «после» это текущая сборка ветки.
+// Пробел переключает до и после. Настройки лаборатории у обеих версий одной ветки общие
+const PAGES = [
+  { id: 'cards', label: 'Карточки', branch: 'chart-cards', path: 'index.html#cards' },
+  { id: 'bars', label: 'Варианты столбцов', branch: 'chart-bars', path: 'bars.html' },
+  { id: 'barlab', label: 'Столбцы', branch: 'chart-bars', path: 'index.html#lab' },
+  { id: 'donut', label: 'Кольцо', branch: 'chart-donut', path: 'index.html#lab' },
+  { id: 'dash', label: 'Дашборды', branch: 'chart-dashboards', path: 'dashboards.html' },
+];
+// Что поменялось, заполняется по отчётам сессий
+const NOTES = {};
+
+const $ = (id) => document.getElementById(id);
+const store = {
+  get(k) { try { return localStorage.getItem('сравнение:' + k); } catch (e) { return null; } },
+  set(k, v) { try { localStorage.setItem('сравнение:' + k, v); } catch (e) {} },
+};
+let page = PAGES.find((p) => p.id === (location.hash.slice(1) || store.get('page'))) || PAGES[0];
+let mode = store.get('mode') === 'side' ? 'side' : 'flip';
+let ver = 'after';
+let frozen = null;
+
+const when = (iso) => {
+  const d = new Date(iso);
+  return isNaN(d) ? '' : d.toLocaleString('ru-RU', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
+};
+
+async function json(url) {
+  try { const r = await fetch(url, { cache: 'no-store' }); return r.ok ? r.json() : null; } catch (e) { return null; }
+}
+
+function renderButtons() {
+  $('pages').innerHTML = '';
+  for (const p of PAGES) {
+    const b = document.createElement('button');
+    b.textContent = p.label;
+    b.setAttribute('aria-pressed', p === page);
+    b.onclick = () => { page = p; store.set('page', p.id); history.replaceState(null, '', '#' + p.id); load(); };
+    $('pages').append(b);
+  }
+  for (const b of $('mode').children) b.setAttribute('aria-pressed', b.dataset.mode === mode);
+  for (const b of $('ver').children) b.setAttribute('aria-pressed', b.dataset.ver === ver);
+  $('ver').style.display = mode === 'flip' ? '' : 'none';
+  $('stage').className = 'stage ' + mode;
+  $('paneBefore').classList.toggle('hidden', mode === 'flip' && ver !== 'before');
+  $('paneAfter').classList.toggle('hidden', mode === 'flip' && ver !== 'after');
+}
+
+async function load() {
+  renderButtons();
+  $('before').src = 'до/' + page.branch + '/' + page.path;
+  $('after').src = page.branch + '/' + page.path;
+  if (!frozen) frozen = await json('до/до.json');
+  const now = await json(page.branch + '/build.json');
+  const b = frozen && frozen.branches[page.branch];
+  $('capBefore').textContent = 'До' + (b ? ', ' + when(b.time) : '');
+  $('capAfter').textContent = 'После' + (now ? ', ' + when(now.time) : '');
+  const same = b && now && b.sha === now.sha;
+  $('note').innerHTML = same
+    ? 'Правок ещё нет, обе версии одинаковые'
+    : (NOTES[page.id] || 'Пробел переключает до и после');
+}
+
+// Общая прокрутка: двигаешь одну страницу, вторая встаёт туда же
+let syncing = false;
+function hook(frame, other) {
+  frame.addEventListener('load', () => {
+    try {
+      const w = frame.contentWindow;
+      w.addEventListener('scroll', () => {
+        if (syncing) return;
+        syncing = true;
+        try { other.contentWindow.scrollTo(w.scrollX, w.scrollY); } catch (e) {}
+        requestAnimationFrame(() => { syncing = false; });
+      }, { passive: true });
+      w.addEventListener('keydown', onKey);
+    } catch (e) {}
+  });
+}
+hook($('before'), $('after'));
+hook($('after'), $('before'));
+
+function flip() {
+  if (mode !== 'flip') return;
+  ver = ver === 'after' ? 'before' : 'after';
+  renderButtons();
+}
+function onKey(e) {
+  const t = e.target;
+  if (e.code !== 'Space' || (t && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT|BUTTON)$/.test(t.tagName)))) return;
+  e.preventDefault();
+  flip();
+}
+document.addEventListener('keydown', onKey);
+$('mode').onclick = (e) => { const m = e.target.dataset.mode; if (m) { mode = m; store.set('mode', m); renderButtons(); } };
+$('ver').onclick = (e) => { const v = e.target.dataset.ver; if (v) { ver = v; renderButtons(); } };
+$('reload').onclick = () => { for (const f of [$('before'), $('after')]) f.contentWindow.location.reload(); };
+load();
+</script>
+</body>
+</html>
