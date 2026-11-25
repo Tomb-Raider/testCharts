@@ -433,7 +433,7 @@
     ]
   },
   "dashboards.html": {
-    "file": "assets/dashboards-DXeyR5MD.js",
+    "file": "assets/dashboards-5LYZYzMd.js",
     "name": "dashboards",
     "src": "dashboards.html",
     "isEntry": true,
@@ -476,7 +476,7 @@
       "lib/bar.js"
     ],
     "css": [
-      "assets/dashboards-DhZr3Tgt.css"
+      "assets/dashboards-BbLsM8jO.css"
     ]
   },
   "index.html": {

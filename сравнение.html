@@ -63,11 +63,19 @@ const PAGES = [
   { id: 'cards', label: 'Карточки', branch: 'chart-cards', path: 'index.html#cards' },
   { id: 'bars', label: 'Варианты столбцов', branch: 'chart-bars', path: 'bars.html' },
   { id: 'barlab', label: 'Столбцы', branch: 'chart-bars', path: 'index.html#lab' },
+  { id: 'line', label: 'Линия', branch: 'chart-line', path: 'index.html#lab' },
+  { id: 'area', label: 'Область', branch: 'chart-area', path: 'index.html#lab' },
   { id: 'donut', label: 'Кольцо', branch: 'chart-donut', path: 'index.html#lab' },
+  { id: 'combo', label: 'Столбцы с линией', branch: 'chart-combo', path: 'index.html#lab' },
   { id: 'dash', label: 'Дашборды', branch: 'chart-dashboards', path: 'dashboards.html' },
 ];
-// Что поменялось, заполняется по отчётам сессий
-const NOTES = {};
+// Что поменялось, по отчётам сессий
+const NOTES = {
+  line: 'Легенда <b>13 → 12</b>, как подписи осей',
+  area: 'Легенда <b>13 → 12</b>, как подписи осей',
+  donut: 'Заголовок карточки <b>15 → 16</b>, серая подпись <b>13 → 12</b>, подписи в режиме сравнения <b>13 → 14</b>, легенда <b>13 → 12</b>',
+  combo: 'Легенда <b>13 → 12</b>. Скругление кнопок лаборатории 6 → 8',
+};
 
 const $ = (id) => document.getElementById(id);
 const store = {
