@@ -433,7 +433,7 @@
     ]
   },
   "dashboards.html": {
-    "file": "assets/dashboards-CzmVLv-0.js",
+    "file": "assets/dashboards-DXeyR5MD.js",
     "name": "dashboards",
     "src": "dashboards.html",
     "isEntry": true,
@@ -476,11 +476,11 @@
       "lib/bar.js"
     ],
     "css": [
-      "assets/dashboards-BmyJRYtY.css"
+      "assets/dashboards-DhZr3Tgt.css"
     ]
   },
   "index.html": {
-    "file": "assets/index-BeVrpkrX.js",
+    "file": "assets/index-B0DatTAa.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
@@ -495,7 +495,7 @@
       "src/Cards.tsx"
     ],
     "css": [
-      "assets/index-CqTnI7S0.css"
+      "assets/index-CddpHRXB.css"
     ]
   },
   "lib/area.js": {
