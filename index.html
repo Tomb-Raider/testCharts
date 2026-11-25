@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Графики, превью веток</title>
+<style>
+:root { --bg: #FFFFFF; --text: #13181B; --muted: #6B767E; --line: #D5DFE6; --link: #0B7ECB; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #060A0C; --text: #F2F5F8; --muted: #8A959D; --line: #23292D; --link: #199AF0; }
+}
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 48px 16px; }
+h1 { font-size: 28px; font-weight: 600; margin: 0 0 8px; }
+p { color: var(--muted); margin: 0 0 32px; }
+ul { list-style: none; margin: 0; padding: 0; }
+li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 20px;
+  padding: 14px 0; border-top: 1px solid var(--line); }
+li:last-child { border-bottom: 1px solid var(--line); }
+.name { font-weight: 600; flex: 0 0 230px; }
+.pages { display: flex; flex-wrap: wrap; gap: 4px 16px; flex: 1 1 auto; }
+.when { color: var(--muted); font-size: 14px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+footer { margin-top: 32px; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Графики, превью веток</h1>
+<p>Каждая ветка обновляется сама после коммита</p>
+<ul>
+<li><span class="name">Карточки с числами</span><span class="pages"><a href="chart-cards/#lab">Лаборатория</a></span><span class="when">25.11, 10:33</span></li>
+<li><span class="name">Столбцы</span><span class="pages"><a href="chart-bars/#lab">Лаборатория</a> <a href="chart-bars/bars.html">Варианты столбцов</a></span><span class="when">25.11, 10:33</span></li>
+<li><span class="name">Линия</span><span class="pages"><a href="chart-line/#lab">Лаборатория</a></span><span class="when">25.11, 10:33</span></li>
+<li><span class="name">Область</span><span class="pages"><a href="chart-area/#lab">Лаборатория</a></span><span class="when">25.11, 10:33</span></li>
+<li><span class="name">Кольцо</span><span class="pages"><a href="chart-donut/#lab">Лаборатория</a></span><span class="when">25.11, 10:33</span></li>
+<li><span class="name">Столбцы с линией</span><span class="pages"><a href="chart-combo/#lab">Лаборатория</a></span><span class="when">25.11, 10:33</span></li>
+<li><span class="name">Все графики на дашбордах</span><span class="pages"><a href="chart-dashboards/dashboards.html">Дашборды</a> <a href="chart-dashboards/#lab">Лаборатория</a> <a href="chart-dashboards/bars.html">Варианты столбцов</a></span><span class="when">25.11, 10:33</span></li>
+<li><span class="name">Общие части</span><span class="pages"><a href="chart-shared/#lab">Лаборатория</a></span><span class="when">25.11, 10:33</span></li>
+</ul>
+<footer><a href="https://pavelpotapov.github.io/testCharts/">Опубликованный стенд, main</a></footer>
+</main>
+</body>
+</html>
