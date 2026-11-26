@@ -17,11 +17,12 @@
       "_RechartsWrapper-CFoi_HLN.js"
     ]
   },
-  "_ApiReference-DVounE6J.js": {
-    "file": "assets/ApiReference-DVounE6J.js",
+  "_ApiReference-pSg0YYkE.js": {
+    "file": "assets/ApiReference-pSg0YYkE.js",
     "name": "ApiReference",
     "imports": [
-      "_sdds_finai_default.module-ByvZlfGI.js"
+      "_sdds_finai_default.module-ByvZlfGI.js",
+      "index.html"
     ]
   },
   "_AreaChart-Dcp7qQUZ.js": {
@@ -475,7 +476,7 @@
     ]
   },
   "index.html": {
-    "file": "assets/index-LqhtxNZ5.js",
+    "file": "assets/index-BqPCDJdC.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
@@ -750,13 +751,14 @@
     ]
   },
   "src/Capabilities.tsx": {
-    "file": "assets/Capabilities-M0r4oqrw.js",
+    "file": "assets/Capabilities-D18a8zpT.js",
     "name": "Capabilities",
     "src": "src/Capabilities.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_sdds_finai_default.module-ByvZlfGI.js",
-      "_ApiReference-DVounE6J.js"
+      "_ApiReference-pSg0YYkE.js",
+      "index.html"
     ]
   },
   "src/Cards.tsx": {
@@ -792,13 +794,14 @@
     ]
   },
   "src/NativeEditor.tsx": {
-    "file": "assets/NativeEditor-CR_xFGLm.js",
+    "file": "assets/NativeEditor-DJdfyb-e.js",
     "name": "NativeEditor",
     "src": "src/NativeEditor.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_sdds_finai_default.module-ByvZlfGI.js",
-      "_ApiReference-DVounE6J.js",
+      "index.html",
+      "_ApiReference-pSg0YYkE.js",
       "_RechartsWrapper-CFoi_HLN.js",
       "_Tooltip-CMgUz4Vb.js",
       "_RadarChart-B-ayfgAo.js",
