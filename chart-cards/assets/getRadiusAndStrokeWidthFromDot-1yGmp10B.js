@@ -1,0 +1,1 @@
+import{bg as N}from"./RechartsWrapper-BXmopFWR.js";function v(u){var o=N(u),s=3,i=2;if(o!=null){var n=o.r,e=o.strokeWidth,r=Number(n),t=Number(e);return(Number.isNaN(r)||r<0)&&(r=s),(Number.isNaN(t)||t<0)&&(t=i),{r,strokeWidth:t}}return{r:s,strokeWidth:i}}export{v as g};
