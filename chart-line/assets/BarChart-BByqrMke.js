@@ -1,0 +1,1 @@
+import{r as a}from"./sdds_finai_default.module-D_j9-Lw1.js";import{ag as e}from"./RechartsWrapper-zVnRiBjf.js";import{C as o}from"./CartesianChart-yMnlkKS5.js";var i=["axis","item"],m=a.forwardRef((r,t)=>a.createElement(o,{chartName:"BarChart",defaultTooltipEventType:"axis",validateTooltipEventTypes:i,tooltipPayloadSearcher:e,categoricalChartProps:r,ref:t}));export{m as B};
