@@ -302,8 +302,8 @@
     "file": "assets/bars-CoGeUNKQ.css",
     "src": "_bars-CoGeUNKQ.css"
   },
-  "_bars-DdLZW4vp.js": {
-    "file": "assets/bars-DdLZW4vp.js",
+  "_bars-DGCOQWs4.js": {
+    "file": "assets/bars-DGCOQWs4.js",
     "name": "bars",
     "imports": [
       "_sdds_finai_default.module-Cv0nPuoc.js",
@@ -402,14 +402,14 @@
     ]
   },
   "bars.html": {
-    "file": "assets/bars-Dv4WAPLN.js",
+    "file": "assets/bars-DmtpFP-B.js",
     "name": "bars",
     "src": "bars.html",
     "isEntry": true,
     "imports": [
       "_sdds_finai_default.module-Cv0nPuoc.js",
       "lib/bar.js",
-      "_bars-DdLZW4vp.js",
+      "_bars-DGCOQWs4.js",
       "_format-Df7znl6d.js",
       "_shared-qkFUU3Ip.js",
       "_RechartsWrapper-BltONgWY.js",
@@ -430,7 +430,7 @@
     ]
   },
   "dashboards.html": {
-    "file": "assets/dashboards-CK4EtP7O.js",
+    "file": "assets/dashboards-D8DwhR_A.js",
     "name": "dashboards",
     "src": "dashboards.html",
     "isEntry": true,
@@ -441,7 +441,7 @@
       "lib/pie.js",
       "lib/composed.js",
       "_kpi-BSYMJEYZ.js",
-      "_bars-DdLZW4vp.js",
+      "_bars-DGCOQWs4.js",
       "_shared-qkFUU3Ip.js",
       "_format-Df7znl6d.js",
       "_RechartsWrapper-BltONgWY.js",
